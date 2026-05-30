@@ -6,18 +6,32 @@ todo_list.md
 
 # CWCT Course Materials to ignore
 
-projects\python-projects\purdue-univnw-cwct
-projects\python-projects\purdue-univnw-cwct\study_materials
-projects\python-projects\vit-python-course
+projects/python-projects/purdue-univnw-cwct/
 
-# Installers to ignore
+# ViT Python Fund Course Materials to ignore
 
-get-pip.py
+projects/python-projects/vit-python-course/Week 1/
+projects/python-projects/vit-python-course/Week 2/
+projects/python-projects/vit-python-course/Week 3/
+projects/python-projects/vit-python-course/Week 4/groupproj_fancy_formatting.py
+projects/python-projects/vit-python-course/Week 4/project_review.py
+projects/python-projects/vit-python-course/Zipped Course Materials/
 
-# Ignore OS-specific files
+# ViT Python Fundamentals Course Generated Excel Files from Projects
 
-Thumbs.db
-desktop.ini
+projects/python-projects/vit-python-course/Week 3/spreadsheets/exercise.xlsx
+projects/python-projects/vit-python-course/Week 3/spreadsheets/inventory.xlsx
+projects/python-projects/vit-python-course/Week 4/state_travel_report_formatted.xlsx
+projects/python-projects/vit-python-course/Week 4/state_travel_report.xlsx
+projects/python-projects/vit-python-course/Week 4/student_report.xlsx
+
+# Exclude my to-do list for my multi-source-dashboard
+projects/api-projects/multi-source-dashboard/chores.html
+
+# Girl Scout Game backup versions (keep local only)
+projects/javascript-projects/girl-scout-game/*backup*.js
+projects/javascript-projects/girl-scout-game/*Mon apr 27*.js
+projects/javascript-projects/girl-scout-game/*before fixing*.js
 
 # Virtual Environment for ViT Python Fundamentals bootcamp
 
@@ -29,27 +43,18 @@ env/
 
 script for pip install openpyxl.txt
 
-# Backup of my ViT Python Fundamentals bootcamp Course Materials
+# Installers to ignore
 
-projects/vit-python=-course/Zipped Course Materials/
+get-pip.py
 
-# ViT Python Fundamentals Course Generated Excel Files from Projects
+# Ignore OS-specific files
 
-exercise.xlsx
-inventory.xlsx
-state_travel_report_formatted.xlsx
-student_report.xlsx
+Thumbs.db
+desktop.ini
 
 # Ignore .vscode folder with exceptions
 
 .vscode/
-
-# But allow shared configuration files
-
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # Ignore temp-backup because I am unsure what created it
 
@@ -59,5 +64,16 @@ student_report.xlsx
 
 .env
 
-# Exclude my to-do list for my multi-source-dashboard
-chores.html
+# Python cache / compiled files
+__pycache__/
+*.pyc
+
+# Zip files (safe to ignore globally in most dev repos)
+*.zip
+
+# Backup / temporary files
+*backup*
+*copy*
+*temp*
+*.tmp
+
