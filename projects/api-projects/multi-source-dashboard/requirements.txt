@@ -1,0 +1,7 @@
+## Project Dependencies
+
+Name: requests
+Version: 2.34.2
+
+Name: python-dotenv
+Version: 1.2.2

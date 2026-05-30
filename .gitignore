@@ -1,0 +1,63 @@
+# CONFIGURATION OF FILES NOT TO BE CHECKED IN TO GITHUB
+
+# Personal notes to self
+
+todo_list.md
+
+# CWCT Course Materials to ignore
+
+projects\python-projects\purdue-univnw-cwct
+projects\python-projects\purdue-univnw-cwct\study_materials
+projects\python-projects\vit-python-course
+
+# Installers to ignore
+
+get-pip.py
+
+# Ignore OS-specific files
+
+Thumbs.db
+desktop.ini
+
+# Virtual Environment for ViT Python Fundamentals bootcamp
+
+.venv/
+venv/
+env/
+
+# Script for pip install from ViT Python Fundamentals bootcamp
+
+script for pip install openpyxl.txt
+
+# Backup of my ViT Python Fundamentals bootcamp Course Materials
+
+projects/vit-python=-course/Zipped Course Materials/
+
+# ViT Python Fundamentals Course Generated Excel Files from Projects
+
+exercise.xlsx
+inventory.xlsx
+state_travel_report_formatted.xlsx
+student_report.xlsx
+
+# Ignore .vscode folder with exceptions
+
+.vscode/
+
+# But allow shared configuration files
+
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore temp-backup because I am unsure what created it
+
+.temp-backup
+
+# Ignore my .env file so it doesnt' expose my weather api key
+
+.env
+
+# Exclude my to-do list for my multi-source-dashboard
+chores.html

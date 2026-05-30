@@ -1,3 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+    "workbench.tips.enabled": false,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
