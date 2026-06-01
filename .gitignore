@@ -1,21 +1,33 @@
 # CONFIGURATION OF FILES NOT TO BE CHECKED IN TO GITHUB
 
-# Personal notes to self
+# Course folders not ready for GitHub yet from CompTIA June 2026 and AWS July 2026 bootcamps
 
-todo_list.md
+comptia-bootcamp/
+aws-solutions-architect-assoc/
 
 # CWCT Course Materials to ignore
 
 projects/python-projects/purdue-univnw-cwct/
 
+# Personal notes to self
+
+todo_list.md
+
 # ViT Python Fund Course Materials to ignore
 
 projects/python-projects/vit-python-course/Week 1/
 projects/python-projects/vit-python-course/Week 2/
-projects/python-projects/vit-python-course/Week 3/
 projects/python-projects/vit-python-course/Week 4/groupproj_fancy_formatting.py
 projects/python-projects/vit-python-course/Week 4/project_review.py
 projects/python-projects/vit-python-course/Zipped Course Materials/
+
+# keep Week 3 tracked for Rick & Morty Export project, but ignore unwanted stuff inside the folder
+
+projects/python-projects/vit-python-course/Week 3/*
+
+!projects/python-projects/vit-python-course/Week 3/rick_and_morty_export.py
+!projects/python-projects/vit-python-course/Week 3/README.md
+!projects/python-projects/vit-python-course/Week 3/exercise.xlsx
 
 # ViT Python Fundamentals Course Generated Excel Files from Projects
 
