@@ -4,7 +4,7 @@
 
 The Dice Game is a JavaScript web application project that simulates rolling two dice and automatically determines a winner. Each time the page is refreshed, two random dice values are generated, corresponding dice images are displayed, and the page updates to announce the winning player or a tie.
 
-This project was completed as part of The Complete Full-Stack Web Development Bootcamp and provided hands-on practice with JavaScript fundamentals, DOM manipulation, conditional logic, and dynamic webpage updates.
+This project was completed as part of The Complete Full-Stack Web Development Bootcamp by Angela Yu (Udemy) and provided hands-on practice with JavaScript fundamentals, DOM manipulation, conditional logic, and dynamic webpage updates.
 
 ## Project Goal
 
