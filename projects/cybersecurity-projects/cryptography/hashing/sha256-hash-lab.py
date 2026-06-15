@@ -11,7 +11,7 @@ secret_message="cybersecurity101"
 
 #secret_message.encode() -> covert text string into bytes -> b"cybersecurity101"
 #bytes are raw binary data that can be used by cryptographic functions like hashing inside hashlib
-#hashlib.sha256(...) takes bytes and runs it thru sha256 algorithm to produce a hash object - a fixed representation of the input data cybersecurity101
+#hashlib.sha256() takes bytes and runs it thru sha256 algorithm to produce a hash object - a fixed representation of the input data cybersecurity101
 #hashed_object is a container holding the computed result and methods to display it
 #transformation that happened is irreversible
 #output is retrievable right now but not human-readable
