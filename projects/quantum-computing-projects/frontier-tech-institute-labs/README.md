@@ -1,6 +1,6 @@
 # Frontier Technology Institute Labs
 
-A collection of foundational quantum computing and programming projects developed alongside the _Foundations of Quantum Computing_ course, Fall 2026, offered through offered through Frontier Technology Institute Qubit x Qubit Program and formally known as The Coding School.  
+A collection of foundational quantum computing and programming projects developed alongside the _Foundations of Quantum Computing_ course, Fall 2026, offered through Frontier Technology Institute Qubit x Qubit Program and formally known as The Coding School.  
 https://www.frontier-tech.org/
 
 ## Table of Contents
@@ -48,16 +48,23 @@ frontier-tech-institute-labs/
 │
 └── single-qubit-circuit-labs/
     ├── README.md
-    └── single_qubit_circuit_x_gate.py
+    │
+    ├── h-gate/
+    │   ├── README.md
+    │   └── single_qubit_circuit_h_gate.py
+    │
+    └── x-gate/
+        ├── README.md
+        └── single_qubit_circuit_x_gate.py
 ```
-
-_Note: This structure illustrates the current lab organization. Update it as additional folders or files are added._
 
 ### Project Folders
 
-- **[single-qubit-circuit-labs](./single-qubit-circuit-labs/README.md)** — Foundational exercises exploring single-qubit quantum circuits using Python and Cirq, beginning with a Pauli-X gate circuit.
+- **[single-qubit-circuit-labs](./single-qubit-circuit-labs/README.md)** — Foundational exercises exploring single-qubit quantum circuits using Python and Cirq, including Pauli-X and Hadamard gate circuits.
 
-- **Single-Qubit Circuit: H Gate** — Constructs and simulates a circuit with a Hadamard gate, then measures the qubit over 1,000 repetitions.
+- **[Single-Qubit Circuit: X Gate](./single-qubit-circuit-labs/x-gate/README.md)** — Constructs and simulates a single-qubit circuit using a Pauli-X gate, transforming the initial \(|0\rangle\) state to \(|1\rangle\) before measurement.
+
+- **[Single-Qubit Circuit: H Gate](./single-qubit-circuit-labs/h-gate/README.md)** — Constructs and simulates a single-qubit circuit using a Hadamard gate, then measures the qubit over 1,000 repetitions to observe the approximately equal probability of measuring `0` or `1`.
 
 ## Installation
 

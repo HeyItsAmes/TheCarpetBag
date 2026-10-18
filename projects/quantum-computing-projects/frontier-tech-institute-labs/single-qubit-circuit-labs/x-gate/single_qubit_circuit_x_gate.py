@@ -1,6 +1,12 @@
-##Code a single-qubit circuit with one X gate using Cirq.
+# What to Expect from a Pauli-X Gate (X)
+#
+# The X gate is the quantum equivalent of a NOT gate for a
+# computational-basis qubit. It flips the qubit from |0⟩ to |1⟩
+# and from |1⟩ to |0⟩.
+#
+# Expected measurement result: 100% 1 when the circuit starts
+# in |0⟩ and applies a single X gate, assuming ideal simulation.
 
-#An X gate is the quantum equivalent of a NOT gate for a computational-basis qubit: it flips 0 to 1 and 1 to 0
 #import the cirq library
 import cirq
 

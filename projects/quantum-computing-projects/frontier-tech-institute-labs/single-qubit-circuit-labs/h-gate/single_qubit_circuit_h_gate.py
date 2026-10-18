@@ -1,4 +1,12 @@
-#What to expect from a Hadamard Gate: H	\(|0\rangle\)	Approximately 50% 0, 50% 1. The H gate creates an equal superposition when applied to \(|0\rangle\). That means a measurement has equal theoretical probabilities of returning 0 or 1.
+# What to Expect from a Hadamard Gate (H)
+#
+# Input state: |0⟩
+#
+# Expected measurement results: Approximately 50% 0 and 50% 1.
+#
+# The H gate creates an equal superposition when applied to |0⟩.
+# This means a measurement has equal theoretical probabilities
+# of returning 0 or 1.
 
 #import Cirq library
 import cirq
